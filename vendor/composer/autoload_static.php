@@ -4,22 +4,23 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInita1f7da930d481785f668a50014b4e800
+class ComposerStaticInit9c557c33ae3283aeec263ee084ef950f
 {
     public static $files = array (
         '20716b7470cda7cd561f4000f723e024' => __DIR__ . '/..' . '/maithemewp/mai-installer/mai-installer.php',
     );
 
     public static $classMap = array (
-        'PAnD' => __DIR__ . '/..' . '/collizo4sky/persist-admin-notices-dismissal/persist-admin-notices-dismissal.php',
-        'WPDI_Plugin_Installer_Skin' => __DIR__ . '/..' . '/afragen/wp-dependency-installer/wp-dependency-installer.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'WP_Dependency_Installer' => __DIR__ . '/..' . '/afragen/wp-dependency-installer/wp-dependency-installer.php',
+        'WP_Dependency_Installer_Skin' => __DIR__ . '/..' . '/afragen/wp-dependency-installer/wp-dependency-installer-skin.php',
+        'WP_Dismiss_Notice' => __DIR__ . '/..' . '/afragen/wp-dismiss-notice/wp-dismiss-notice.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInita1f7da930d481785f668a50014b4e800::$classMap;
+            $loader->classMap = ComposerStaticInit9c557c33ae3283aeec263ee084ef950f::$classMap;
 
         }, null, ClassLoader::class);
     }
