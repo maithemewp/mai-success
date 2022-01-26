@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'dc313e5c8dee1b2badd0e1d536756b34b54e1924',
+    'reference' => '5892f00e9a9e74a480816ad3422d4891541f71ff',
     'name' => 'maithemewp/mai-success',
   ),
   'versions' => 
@@ -52,7 +52,7 @@ private static $installed = array (
       array (
         0 => '9999999-dev',
       ),
-      'reference' => '1b637076d114af7762855493b9bac009a6272d5c',
+      'reference' => '44561c1f7bb4bb0022787bb44974b573b2bca72d',
     ),
     'maithemewp/mai-success' => 
     array (
@@ -61,7 +61,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'dc313e5c8dee1b2badd0e1d536756b34b54e1924',
+      'reference' => '5892f00e9a9e74a480816ad3422d4891541f71ff',
     ),
   ),
 );
